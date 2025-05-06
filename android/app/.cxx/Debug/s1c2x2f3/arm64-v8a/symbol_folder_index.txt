@@ -1,0 +1,1 @@
+C:\Flutter\enrichme\build\app\intermediates\cxx\Debug\s1c2x2f3\obj\arm64-v8a

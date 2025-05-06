@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://enrichme-591cb-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">684878584615</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPg0cXD4EUIph1dCj1cg2Ghz-hpsSzFKU</string>
+    <string name="google_app_id" translatable="false">1:684878584615:android:f79c6f5ef038896e9fe702</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPg0cXD4EUIph1dCj1cg2Ghz-hpsSzFKU</string>
+    <string name="google_storage_bucket" translatable="false">enrichme-591cb.firebasestorage.app</string>
+    <string name="project_id" translatable="false">enrichme-591cb</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

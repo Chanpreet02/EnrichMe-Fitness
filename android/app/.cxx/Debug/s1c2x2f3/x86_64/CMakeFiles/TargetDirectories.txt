@@ -1,0 +1,2 @@
+C:/Flutter/enrichme/android/app/.cxx/Debug/s1c2x2f3/x86_64/CMakeFiles/edit_cache.dir
+C:/Flutter/enrichme/android/app/.cxx/Debug/s1c2x2f3/x86_64/CMakeFiles/rebuild_cache.dir
