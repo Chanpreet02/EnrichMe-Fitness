@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "684878584615",
+    "firebase_url": "https://enrichme-591cb-default-rtdb.firebaseio.com",
+    "project_id": "enrichme-591cb",
+    "storage_bucket": "enrichme-591cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684878584615:android:f79c6f5ef038896e9fe702",
+        "android_client_info": {
+          "package_name": "com.example.enrichme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPg0cXD4EUIph1dCj1cg2Ghz-hpsSzFKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684878584615:android:0de9432dda1a8dcb9fe702",
+        "android_client_info": {
+          "package_name": "com.example.enrichme.enrich_me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPg0cXD4EUIph1dCj1cg2Ghz-hpsSzFKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
