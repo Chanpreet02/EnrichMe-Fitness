@@ -20,31 +20,54 @@ This project is a core component of the **EnrichMe** app, focused on implementin
 ### Requirement:
 The app displays a list of fitness plans, each plan containing a title, description, and type (e.g., cardio, strength). Mock data is used to simulate the list, displayed via a `ListView`.
 
-### Code:
-The `FitnessPlanListPage` class is responsible for displaying the list of fitness plans.
+---
 
-```dart
-class FitnessPlanListPage extends StatelessWidget {
-  final String loggedInUser;
+## 2. User Registration and Login (Mocked Data)
 
-  FitnessPlanListPage({required this.loggedInUser});
+### Requirement:
+A simple login system with hardcoded mock credentials (username: `test`, password: `password123`). Upon successful login, the user is navigated to the fitness plan list screen.
 
-  final List<String> plans = [
-    "Plan A: Full Body Workout",
-    "Plan B: Cardio and Strength",
-    "Plan C: Yoga and Flexibility",
-  ];
+---
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("All Fitness Plans")),
-      body: ListView.builder(
-        itemCount: plans.length,
-        itemBuilder: (_, index) => ListTile(
-          title: Text(plans[index]),
-        ),
-      ),
-    );
-  }
-}
+## 3. Coach's Fitness Plan Assignment Page
+
+### Requirement:
+The coach can assign fitness plans to users. It includes dropdowns for selecting a user and a fitness plan. The coach can press a button to assign the selected plan to the selected user.
+
+---
+
+## 4. Assigned Fitness Plans for a User
+
+### Requirement:
+Display a list of all fitness plans assigned to a specific user. After logging in, users should see their assigned plans.
+
+---
+
+## 5. Basic State Management
+
+### Requirement:
+Implement state management using Provider to handle the logged-in user's state and update the UI accordingly.
+
+---
+
+## 6. Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-link>
+   cd <project-folder>
+2. **Install dependencies:**
+     ```bash
+     flutter pub get
+3. **Run the project**
+     ```bash
+     flutter run
+
+---
+
+## 7. Technology Stack
+Flutter: Used for building the mobile app.
+
+Firebase: Used for user authentication (optional for the internship task).
+
+Provider: Used for state management across the app.
